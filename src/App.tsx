@@ -10,7 +10,7 @@ function App() {
   return (
     <DndProvider backend={isMobile ? TouchBackend : HTML5Backend}>
       <Toaster position="top-right" reverseOrder={false} />
-      <div className="min-h-screen">
+      <div className="max-h-screen">
         <Navbar></Navbar>
         <DragDrop></DragDrop>
       </div>

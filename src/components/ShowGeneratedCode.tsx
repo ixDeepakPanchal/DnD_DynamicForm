@@ -20,7 +20,7 @@ function ShowGeneratedCode({ formState }: prop) {
     }, 1000);
   };
   return (
-    <div className="relative border-2 text-gray-700  border-gray-500 shadow-md shadow-gray-400  rounded-md p-4 h-[500px] w-full overflow-auto  ">
+    <div className="relative border-2 text-gray-700  border-gray-500 shadow-md shadow-gray-400  rounded-md p-4 h-[465px] w-full overflow-auto  ">
       <div className="absolute top-4 right-4">
         <Tooltip
           title={
@@ -31,7 +31,8 @@ function ShowGeneratedCode({ formState }: prop) {
               </span>
             </div>
           }
-          visible={tooltipVisible}
+
+          open={tooltipVisible}
           trigger="click"
           color="blue"
         >
